@@ -112,6 +112,7 @@ body {
   list-style: none;
 }
 
+.task__row-new,
 .list__input:focus {
   color: #333333;
 }
