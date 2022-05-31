@@ -79,7 +79,7 @@ body {
 }
 
 /* Heading */
-.label__task-new,
+.task__new-label,
 .title {
   color: #333333;
   font-weight: 700;
@@ -91,7 +91,7 @@ body {
 }
 
 /* New Task */
-.label__task-new {
+.task__new-label {
   display: block;
   margin: 0 0 20px;
 }
