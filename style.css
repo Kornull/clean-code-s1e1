@@ -79,6 +79,7 @@ body {
 }
 
 /* Heading */
+.label__task-new,
 .title {
   color: #333333;
   font-weight: 700;
