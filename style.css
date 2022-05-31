@@ -90,8 +90,6 @@ body {
   text-transform: uppercase;
 }
 
-
-
 /* New Task */
 .label__task-new {
   display: block;
@@ -117,9 +115,6 @@ body {
 .list__input:focus {
   color: #333333;
 }
-
-
-
 
 .list__fill {
   overflow: hidden;
