@@ -42,13 +42,14 @@ var createNewTaskElement=function(taskString){
     checkBox.className = "list__checkbox";
     editInput.type="text";
     editInput.className="list__input";
-
+    deleteButtonImg.setAttribute("alt", "remove");
     editButton.innerText="Edit"; //innerText encodes special characters, HTML does not.
     editButton.className="btn btn__edit";
 
     deleteButton.className="btn btn__delete";
     deleteButtonImg.src='./remove.svg';
     deleteButtonImg.className = "list__image";
+
     deleteButton.appendChild(deleteButtonImg);
 
 
