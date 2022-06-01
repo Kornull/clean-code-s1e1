@@ -11,23 +11,31 @@ body {
   margin: 0 auto 0;
 }
 
+.header {
+  text-align: right;
+  margin-bottom: 16px;
+}
+
+.header__image {
+  width: 100%;
+}
+
+.header__info {
+  font-family: fantasy, cursive;
+}
+
 .main {
   width: 500px;
   margin: 0 auto;
   display: block;
-  text-align: right;
 }
 
-.main__image {
-  width: 100%;
-}
-
-.main__info {
-  font-family: fantasy, cursive;
+.top__section-element {
+  margin-bottom: 16px;
 }
 
 @media (max-width:768px) {
-  .main {
+  .header {
     text-align: center;
   }
 }
